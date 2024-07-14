@@ -10,7 +10,6 @@
   --bg-color: #F27166; 
 }
 
-
 #colabs,
 #production {
   border-bottom: .0625rem solid var(--text-color);
@@ -38,7 +37,6 @@
   height: .0625rem;
   opacity: 0;
 }
-
 
 /* Estilos gerais do cabeçalho */
 header {
@@ -107,6 +105,19 @@ nav {
   width: 1.5625rem;
   background-color: var(--text-color);
   margin-bottom: .3125rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 /* Estilos do overlay */
@@ -122,6 +133,7 @@ nav {
 
 .overlay.active {
   display: block;
+  opacity:0.2
 }
 
 /* ABOUT */
@@ -431,8 +443,6 @@ footer {
 
 }
 
-
-
 @media screen and (max-width: 62rem) {
   .section-title {
     font-size: 2rem;
@@ -442,8 +452,8 @@ footer {
     position: relative;
   }
 
-   /* container menu toggle */
-   .menu-toggle-container {
+  /* container menu toggle */
+  .menu-toggle-container {
     position: fixed;
     top: .5rem;
     right: 1rem;
@@ -512,8 +522,6 @@ footer {
   .grid-item img{
     filter:blur(.0)
   }
-
- 
 
   /* FOOTER */
   .footer-left img {

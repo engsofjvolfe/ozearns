@@ -20,6 +20,7 @@ function toggleMenu() {
   } else {
     nav.classList.toggle("active");
     overlay.classList.toggle("active");
+    menuToggle.classList.toggle("active");
   }
 }
 
@@ -34,6 +35,7 @@ window.addEventListener("resize", function () {
 function resetMenu() {
   nav.classList.remove("active");
   overlay.classList.remove("active");
+  menuToggle.classList.remove("active");
 }
 
 // Initialize the slider

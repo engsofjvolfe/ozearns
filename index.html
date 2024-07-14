@@ -2,12 +2,15 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <title>Ozé - Marcenaria Artesanal</title>
     <meta
-      title="description"
-      content="We're a bunch of wood enthusiasts and artisans hailing from Brazil. We derive immense pleasure from delving into the world of reclaimed and storm-felled wood, always seeking out new avenues for creativity. Our craft isn't just about sticking to the old ways; we're all about pushing boundaries, trying out fresh techniques, and crafting one-of-a-kind pieces. Our hearts beat for revealing the hidden allure within each piece of wood and spreading that joy through our creations. Specializing in top-notch woodworking, we pour our skills into crafting intricate sculptures, mirrors, and totems. Our commitment to nature runs deep, reflected in our conscientious use of reclaimed and storm-felled wood. Whether you're after custom creations, woodworking lessons, or creative collaborations, we're all ears."
+      name="description"
+      content="Somos entusiastas da madeira e artesãos do Brasil, especializados em madeira recuperada e derrubada por tempestades. Criamos esculturas, espelhos e totens exclusivos com técnicas inovadoras."
     />
+    <meta name="keywords" content="marcenaria, madeira, artesanato, esculturas, espelhos, totens, Brasil" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
     <!-- Slick Slider CSS -->
     <link
       rel="stylesheet"
@@ -19,30 +22,28 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+    
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-
-    <!-- Slick Slider JS -->
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
-    <title>Ozé</title>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    
+    <!-- Slick Slider JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
       <div class="color-detector" data-bg-color="light"></div>
       <div class="logo">
-        <a href=""
-          ><img
-            src="image/logo.png"
-            alt="Logo"
-        /></a>
+        <a href="#"><img src="image/logo.png" alt="Logo da empresa Ozé" /></a>
       </div>
       <nav>
         <ul class="menu">
@@ -64,162 +65,88 @@
         <div class="color-detector" data-bg-color="light"></div>
         <h2 class="section-title">Sobre</h2>
         <div class="images">
-          <img
-            src="image/logo.png"
-            alt="Logo"
-          />
-          <img
-            src="image/logo.png"
-            alt="Logo"
-          />
+          <img src="image/logo.png" alt="Imagem sobre" />
+          <img src="image/logo.png" alt="Imagem sobre" />
         </div>
         <div class="about-text">
-          <p>
-           Salve, salve! Eu sou o Zé!
-          </p>
-
-          <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea recusandae laudantium culpa impedit! Vero, perspiciatis? Reprehenderit aliquam eum, alias, eius sequi minus quo veritatis harum sapiente ipsa error id!
-          </p>
-
-          <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea recusandae laudantium culpa impedit! Vero, perspiciatis? Reprehenderit aliquam eum, alias, eius sequi minus quo veritatis harum sapiente ipsa error id!
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea recusandae laudantium culpa impedit! Vero, perspiciatis? Reprehenderit aliquam eum, alias, eius sequi minus quo veritatis harum sapiente ipsa error id!
-          </p>
+          <p>Salve, salve! Eu sou o Zé!</p>
+          <p>Somos uma equipe de artesãos apaixonados pela madeira. Nossa especialidade é transformar madeira recuperada em obras de arte únicas. Cada peça é uma nova descoberta, revelando a beleza oculta dentro de cada pedaço de madeira.</p>
+          <p>Adotamos práticas sustentáveis, utilizando apenas madeira recuperada e derrubada por tempestades. Queremos compartilhar nossa paixão pela madeira e nosso compromisso com a natureza através de nossas criações.</p>
         </div>
       </section>
-      <!--  ABOUT -->
+
       <section id="production" class="section">
         <div class="color-detector" data-bg-color="light"></div>
         <h2 class="section-title">Produção</h2>
         <div class="slider">
           <div class="slide">
-            <img
-              src="image/espelhos.jpg"
-              alt="wood mirror"
-            />
+            <img src="image/espelhos.jpg" alt="Espelho de madeira" />
             <h3>Espelhos</h3>
           </div>
           <div class="slide">
-            <img
-              src="image/gamelas.jpg"
-              alt="wood bowls"
-            />
+            <img src="image/gamelas.jpg" alt="Gamela de madeira" />
             <h3>Gamelas</h3>
           </div>
           <div class="slide">
-            <img
-              src="image/totens.jpg"
-              alt="wood totem"
-            />
+            <img src="image/totens.jpg" alt="Totem de madeira" />
             <h3>Totens</h3>
           </div>
           <div class="slide">
-            <img
-              src="image/outros.jpg"
-              alt="woodworking"
-            />
+            <img src="image/outros.jpg" alt="Outros trabalhos em madeira" />
             <h3>Outros</h3>
           </div>
         </div>
       </section>
-      <!-- finished-production -->
+
       <section id="finished-production" class="section">
         <div class="color-detector" data-bg-color="dark"></div>
         <h2 class="section-title">Produções Finalizadas</h2>
         <div class="grid-container">
           <a href="LINK_PARA_PAGINA_1" class="grid-item">
-            <img
-              src="image/1.jpg"
-              alt=""
-            />
+            <img src="image/1.jpg" alt="Produção finalizada 1" />
             <h3>Título aqui</h3>
           </a>
           <a href="LINK_PARA_PAGINA_2" class="grid-item">
-            <img
-              src="image/2.jpg"
-              alt=""
-            />
+            <img src="image/2.jpg" alt="Produção finalizada 2" />
             <h3>Título aqui</h3>
           </a>
           <a href="LINK_PARA_PAGINA_3" class="grid-item">
-            <img
-              src="image/3.jpg"
-              alt=""
-            />
+            <img src="image/3.jpg" alt="Produção finalizada 3" />
             <h3>Título aqui</h3>
           </a>
           <a href="LINK_PARA_PAGINA_4" class="grid-item">
-            <img
-              src="image/4.jpg"
-              alt=""
-            />
+            <img src="image/4.jpg" alt="Produção finalizada 4" />
             <h3>Título aqui</h3>
           </a>
         </div>
       </section>
-      <!-- MUSIC PRODUCTION -->
-      <div class="color-detector" data-bg-color="light"></div>
+
       <section id="colabs" class="section">
+        <div class="color-detector" data-bg-color="light"></div>
         <h2 class="section-title">Colaborações</h2>
         <div class="container-colabs">
           <a href="LINK_PARA_PAGINA_1" class="grid-item colabs">
-            <img
-              src="image/totens.jpg"
-              alt=""
-            />
+            <img src="image/totens.jpg" alt="Colaboração 1" />
             <h3>Vídeos</h3>
           </a>
           <a href="LINK_PARA_PAGINA_3" class="grid-item musicp">
-            <img
-              src="image/espelhos.jpg"
-              alt=""
-            />
+            <img src="image/espelhos.jpg" alt="Colaboração 2" />
             <h3>Feiras</h3>
           </a>
         </div>
       </section>
     </main>
-    <!-- FOOTER -->
+
     <footer>
       <div class="footer-left" id="contact">
-        <a href=""
-          ><img
-            src="image/logo.png"
-            alt="Logo"
-        /></a>
+        <a href="#"><img src="image/logo.png" alt="Logo da empresa Ozé" /></a>
       </div>
       <div class="footer-right">
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-facebook"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-whatsapp"></i>
-        </a>
+        <a href="#"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube" aria-label="YouTube"></i></a>
+        <a href="#"><i class="fab fa-facebook" aria-label="Facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp" aria-label="WhatsApp"></i></a>
       </div>
-      <!-- <div class="footer-contact">
-          <h3>Get in touch</h3>
-          <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-          </form>
-        </div> -->
     </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
